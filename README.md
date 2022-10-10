@@ -1,5 +1,9 @@
 # tinyvg-rs
 
+**Note:** This is my downstream fork of tinyvg-rs used in
+[Fizzerb](https://github.com/liquidev/fizzerb), in case the original author doesn't want some of my
+arguably domain-specific features.
+
 This is a Rust implementation of the [TinyVG](https://tinyvg.tech) image format.
 It provides an executable that renders PNG images from TinyVG input files, and a
 library that can render PNG images or any format supported by
