@@ -4,6 +4,13 @@
 [Fizzerb](https://github.com/liquidev/fizzerb), in case the original author doesn't want some of my
 arguably domain-specific features.
 
+The workflow goes a bit like this:
+- `main` is the upstream branch, from which feature branches are spun off of
+- PRs are made for each feature branch that could be merged to upstream
+- Every one of my feature branches is merged into `downstream` (this repo's default branch.)
+
+---
+
 This is a Rust implementation of the [TinyVG](https://tinyvg.tech) image format.
 It provides an executable that renders PNG images from TinyVG input files, and a
 library that can render PNG images or any format supported by
